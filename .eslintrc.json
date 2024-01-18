@@ -74,7 +74,6 @@
         "allow": ["warn", "error"]
       }
     ],
-    "no-unused-vars": "error",
     "unused-imports/no-unused-imports": "error",
     "unused-imports/no-unused-vars": [
       "warn",
@@ -90,7 +89,9 @@
     "prettier/prettier": ["error", { "singleQuote": true }],
     "react/prop-types": 0,
     "react/jsx-indent-props": ["error", 2],
-    "react-hooks/exhaustive-deps": "off"
+    "react-hooks/exhaustive-deps": "off",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "error"
   },
   "settings": {
     "react": {
